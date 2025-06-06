@@ -20,7 +20,8 @@
                     <li><a href="manage-category.php">Category</a></li>
                     <li><a href="manage-food.php">Food</a></li>
                     <li><a href="manage-order.php">Order</a></li>
-                    <li><a href="manage-emoloyee.php">Employee</a></li>
+                    <li><a href="manage-payment.php">Payment</a></li>
+                    <li><a href="manage-refund.php">Refund</a></li>
                     <li><a href="logout.php">Logout</a></li>
                 </ul>
             </div>

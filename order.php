@@ -1,4 +1,3 @@
-
 <?php include('partials-front/menu.php'); ?>
 
     <?php 
@@ -127,8 +126,8 @@
 
                     if($res2==true)
                     {
-                        $_SESSION['order'] = "<div class='success text-center'>Food Ordered Successfully.</div>";
-                        header('location:'.SITEURL);
+                        $order_id = mysqli_insert_id($conn);
+                        header('location:'.SITEURL.'payment.php?order_id='.$order_id);
                     }
                     else
                     {
